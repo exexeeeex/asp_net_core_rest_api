@@ -13,6 +13,7 @@ namespace Statistics.BLL.Helpers
                 WithdrawnFunds = stats.WithdrawnFunds,
                 WithdrawnItems = stats.WithdrawnItems
             };
+        /// КОД ПОЛНЕЙШАЯ ХУЙНЯ
         public static SiteStatisticsAdminResponse ToResponse(this SiteStatisticsAdmin stats) =>
             new()
             {
